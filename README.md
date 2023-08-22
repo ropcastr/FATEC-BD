@@ -1,116 +1,66 @@
-# The Time machine theme
+<!-- Início do README -->
+# Olá! 👋
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/time-machine/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/time-machine/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-time-machine.svg)](https://badge.fury.io/rb/jekyll-theme-time-machine)
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right">
 
-*Time machine is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/time-machine), or even [use it today](#usage).*
+<h3>Sobre mim</h3>
 
-![Thumbnail of Time machine](thumbnail.png)
+- 🚀 Explorando novas tecnologias e desenvolvendo soluções de software.
+- 🎓 Estudando **Tecnologia em Banco de Dados** na <a href="https://fatecsjc-prd.azurewebsites.net">FATEC SJC</a>.
+- 💼 Trabalhando como **Analista NOC** na <a href="https://www.farmaconde.com.br">Farma Conde</a>
+- 🌐 &nbsp; Aprendendo mais sobre **TECNOLOGIAS DE REDES**.
 
-## Usage
+## Minhas Skills
 
-To use the Time machine theme:
+**Linguagens e Ferramentas**
 
-1. Add the following to your site's `_config.yml`:
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+<code><img height="30" src="https://img.shields.io/badge/-Eclipse-2C2255?style=flat&logo=eclipse-ide&logoColor=white"></code>
+<code><img height="30" src="https://img.shields.io/badge/-PyCharm-000000?style=flat&logo=pycharm&logoColor=white"></code>
+<code><img height="30" src="https://img.shields.io/badge/-Trello-0079BF?style=flat&logo=trello&logoColor=white"></code>
 
-    ```yml
-    remote_theme: pages-themes/time-machine@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+## Status
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+<a href="https://github.com/ropcastr">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ropcastr&theme=dracula&hide_langs_below=1" />
+</a>
 
-## Customizing
+<a href="https://github.com/ropcastr">
+ <img align="center" src="https://github-readme-stats.vercel.app/api?username=ropcastr&show_icons=true&theme=dracula&line_height=27" alt="**Rodrigo** github stats"/>
+</a>
 
-### Configuration variables
+[website]: https://codedev.ga/
+[twitter]: https://twitter.com/SEUTWITTER
+[youtube]: https://www.youtube.com/user/SEUYOUTUBE/
+[instagram]: https://www.instagram.com/SEUINSTAGRAM/
+[linkedin]: https://www.linkedin.com/in/SEULINKEDIN/
 
-Time machine will respect the following variables, if set in your site's `_config.yml`:
+<br>
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+## Redes sociais
 
-Additionally, you may choose to set the following optional variables:
+<p align="left">
+  💌 Você me encontra aqui: ⤵️
+</p>
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+<p align="left">
+  <a href="#" alt="Gmail">
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=LINK-DO-SEU-GMAIL" /></a>
 
-### Stylesheet
+  <a href="#" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
 
-If you'd like to add your own custom styles:
+  <a href="#" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=API-DO-SEU-WHATSAPP"/></a>
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+  <a href="#" alt="Facebook">
+  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=LINK-DO-SEU-FACEBOOK"/></a>
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
-
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
-
-### Layouts
-
-If you'd like to change the theme's HTML layout:
-
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/time-machine/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/time-machine/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/time-machine/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
-
-### Customizing Google Analytics code
-
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
-
-### Overriding GitHub-generated URLs
-
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
-
-1. Look at [the template source](https://github.com/pages-themes/time-machine/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
-
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
-
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
-
-## Roadmap
-
-See the [open issues](https://github.com/pages-themes/time-machine/issues) for a list of proposed features (and known issues).
-
-## Project philosophy
-
-The Time machine theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
-
-## Contributing
-
-Interested in contributing to Time machine? We'd love your help. Time machine is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/time-machine`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+  <a href="#" alt="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=LINK-DO-SEU-INSTAGRAM"/></a>
+</p>
