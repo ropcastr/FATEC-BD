@@ -1,5 +1,11 @@
-title: Time Machine theme
-description: Time Machine is a theme for GitHub Pages.
+title: FATEC - Aulas
+description: Tecnologia em Banco de Dados
 show_downloads: true
-google_analytics:
+google_analytics:https://www.googletagmanager.com/gtag/js?id=G-EL1TX66BLP
 theme: jekyll-theme-time-machine
+
+remote_theme: pages-themes/time-machine@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+gem "github-pages", group: :jekyll_plugins
+
